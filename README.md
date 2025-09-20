@@ -27,7 +27,6 @@ The script requires the following Python libraries. It will automatically attemp
 If you have Git on your computer, you can use this installation guide:
 ```
 git clone https://github.com/MohammadDarrodi/system-health-monitor.git
-cd system-health-monitor
-pip install -r requirements.txt
+cd system-check
 python system_health_monitor.py
 ```
