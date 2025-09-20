@@ -23,14 +23,11 @@ The script requires the following Python libraries. It will automatically attemp
 - `wmi` (Windows only)
 
 ## How to Use
-
-1.  Make sure you have Python installed on your system.
-2.  Save the code from `system_health_monitor.py` to a file with the same name.
-3.  Open a terminal or command prompt.
-4.  Run the script using the following command:
-
-    ```bash
-    python system_health_monitor.py
-    ```
-
-5.  The script will print the system health report to the console and save a detailed log file in the same directory.
+#For Windows
+If you have Git on your computer, you can use this installation guide:
+```
+git clone https://github.com/MohammadDarrodi/system-health-monitor.git
+cd system-health-monitor
+pip install -r requirements.txt
+python system_health_monitor.py
+```
